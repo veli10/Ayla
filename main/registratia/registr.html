@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./registr.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+
+        <div>
+
+            <label for="name">Name:</label>
+            <input class="place"  type="text" id="name">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input class="place" type="text" id="password">
+        </div>
+        <div>
+            
+            <label for="phone">Phone:</label>
+            <input pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="place" type="text" id="phone" placeholder="000-000-0000">
+        </div>
+            
+        <div>
+
+    <label for="username"><b>Username</b></label>
+    <input class="place" type="text" id="Username" >
+     
+        </div>
+        
+         <div>
+            <input type="checkbox" id="check"/>
+            <label for="check">Privacy</label>
+        </div>
+        
+
+    <button class="btn" disabled>Registr</button>
+    <a href="./Login.html">Alredy have account?</a>
+    </form>
+
+    <script src="../code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="./registr.js"></script>
+</body>
+</html>

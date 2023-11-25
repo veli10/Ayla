@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.block{
+    width: 50%;
+    height: auto;
+    margin-left: 200px;
+}
+
+#previous{
+    margin-left: 100px;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+#next{
+    margin-right: 200px;
+}
+
